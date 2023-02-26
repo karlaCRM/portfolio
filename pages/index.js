@@ -223,7 +223,7 @@ export default function Home() {
           </div>
          
         </section>
-        <section id="proyect" className=" bg-[url('../public/miranda.png')] bg-cover flex mx-auto justify-center w-full" >
+        <section id="proyect" className=" bg-[url('../public/mirandaVer.png')] bg-contain md:bg-cover flex mx-auto justify-center w-full" >
           <div className='min-h-screen   md:bg-[#a4133c]  sm:bg-opacity-0 md:w-2/3 pb-10'>
           <br></br>
           <div className="flex flex-col pt-10 pb-5  md:pt-0  md:mt-20 mt-6 items-center px-5 ">
