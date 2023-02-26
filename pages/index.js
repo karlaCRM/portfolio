@@ -75,7 +75,7 @@ export default function Home() {
                   <a className="md:px-5 py-2 block hover:text-[#f8e36e] font-semibold" href="#about" onClick={() => setOpen(!open)}>About</a>
                 </li>
                 <li>
-                  <a className="md:px-5 py-2 block hover:text-[#f8e36e] font-semibold" href="#proyect" onClick={() => setOpen(!open)}>Proyects</a>
+                  <a className="md:px-5 py-2 block hover:text-[#f8e36e] font-semibold" href="#proyect" onClick={() => setOpen(!open)}>Projects</a>
                 </li>
                 <li>
                   <Link className="md:px-5 py-2 block text-gray-800 bg-gradient-to-t from-[#ffee88] to-[#f8e36e] hover:from-teal-400 hover:to-teal-700 hover:text-white font-medium rounded-lg text-sm px-5 text-center mr-3 md:mr-0 h-auto w-auto " href="cvKarla.pdf" download={"cvKarla.pdf"}>Resume</Link>
@@ -223,11 +223,11 @@ export default function Home() {
           </div>
          
         </section>
-        <section id="proyect" className=" md:bg-[url('../public/miranda.png')] bg-cover flex mx-auto justify-center w-full" >
-          <div className='min-h-screen   bg-[#a4133c] sm:w-full md:w-2/3 pb-10'>
+        <section id="proyect" className=" bg-[url('../public/miranda.png')] bg-cover flex mx-auto justify-center w-full" >
+          <div className='min-h-screen   md:bg-[#a4133c]  sm:bg-opacity-0 md:w-2/3 pb-10'>
           <br></br>
           <div className="flex flex-col pt-10 pb-5  md:pt-0  md:mt-20 mt-6 items-center px-5 ">
-            <h3 className="text-3xl py-1 font-bold text-[#edf2f4] md:text-4xl pb-3 tracking-wide">PROYECTS</h3>
+            <h3 className="text-3xl py-1 font-bold text-[#edf2f4] md:text-4xl pb-3 tracking-wide">PROJECTS</h3>
             <p className="text-md py-2 leading-8 text-[#edf2f4] text-center md:text-lg max-w-md">
               Here are some of the projects I&apos;ve done and that{" "}
               <span className=" text-[#f8e36e] font-semibold">
@@ -238,7 +238,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 px-6 w-full place-content-center gap-3 sm:px-12 md:px-10">
             <div className="grid grid-flow-col grid-cols-1 bg-white bg-opacity-90 px-5 lg:px-2 py-4 rounded-lg w-full place-content-start">
           <a href="https://github.com/karlaCRM/DEV001-cipher-karlaCRM.github.io">
-            <Image src={cipher} alt="cipher proyect" className="mb-2 rounded-md"/>
+            <Image src={cipher} alt="cipher project" className="mb-2 rounded-md"/>
             <h3 className="text-sm text-center font-extrabold   text-[#a4133c]">Cipher</h3>
             <p className="text-xs text-center font-semibold px-2 mb-2">Users can encrypt and decrypt a message using caesar encryption.</p>
             <h4 className="text-xs text-center font-bold px-2  text-teal-700 mb-2">Dev Learning Goals</h4>
@@ -252,7 +252,7 @@ export default function Home() {
             </div>
             <div className="grid grid-flow-col grid-cols-1 bg-white bg-opacity-90 px-5 lg:px-2 py-4 rounded-lg w-full place-content-start">
           <a href="https://github.com/karlaCRM/Data-lovers-PokeLab-karla">
-            <Image src={data} alt="cipher proyect" className="mb-2 rounded-md"/>
+            <Image src={data} alt="datalovers project" className="mb-2 rounded-md"/>
             <h3 className="text-sm text-center font-extrabold   text-[#a4133c]">DataLovers</h3>
             <p className="text-xs text-center font-semibold px-2 mb-2"> Page that allows you to view, filter and sort data about pokemon.</p>
             <h4 className="text-xs text-center font-bold px-2  text-teal-700 mb-2">Dev Learning Goals</h4>
@@ -270,7 +270,7 @@ export default function Home() {
             </div>
             <div className="grid grid-flow-col grid-cols-1 bg-white bg-opacity-90 px-5 lg:px-2 py-4 rounded-lg w-full place-content-start">
           <a href="https://github.com/karlaCRM/DEV001-social-network-SN01">
-            <Image src={sn} alt="cipher proyect" className="mb-2 rounded-md"/>
+            <Image src={sn} alt="social network project" className="mb-2 rounded-md"/>
             <h3 className="text-sm text-center font-extrabold   text-[#a4133c]">PawsFinder Social Network</h3>
             <p className="text-xs text-center font-semibold px-2 mb-2">Social network for animal lovers, allows you to create, edit and delete posts.</p>
             <h4 className="text-xs text-center font-bold px-2  text-teal-700 mb-2">Dev Learning Goals</h4>
@@ -289,7 +289,7 @@ export default function Home() {
             </div>
             <div className="grid grid-flow-col grid-cols-1 bg-white bg-opacity-90 px-5 lg:px-2 py-4 rounded-lg w-full place-content-start">
           <a href="https://github.com/karlaCRM/md-links-KarlaCRM">
-            <Image src={md} alt="cipher proyect" className="mb-2 rounded-md"/>
+            <Image src={md} alt="mdlinks project" className="mb-2 rounded-md"/>
             <h3 className="text-sm text-center font-extrabold   text-[#a4133c]">MdLinks</h3>
             <p className="text-xs text-center font-semibold px-2 mb-2">
 Created with NodeJs, it allows to find and validate links inside .md files, it also finds .md files inside directories and extracts links.</p>
@@ -306,7 +306,7 @@ Created with NodeJs, it allows to find and validate links inside .md files, it a
             </div>
             <div className="grid grid-flow-col grid-cols-1 bg-white bg-opacity-90 px-5 lg:px-2 py-4 rounded-lg w-full place-content-start">
           <a href="https://github.com/karlaCRM/DEV001-burger-queen-api-client-KarlaCRM">
-            <Image src={bq} alt="cipher proyect" className="mb-2 rounded-md"/>
+            <Image src={bq} alt="burger project" className="mb-2 rounded-md"/>
             <h3 className="text-sm text-center font-extrabold   text-[#a4133c]">Burger Queen Api Client</h3>
             <p className="text-xs text-center font-semibold px-2 mb-2"><strong>In process. </strong>Interface created for a fast food restaurant. Employees can take orders, send them to the kitchen, and have more control over products and prices.</p>
             <h4 className="text-xs text-center font-bold px-2  text-teal-700 mb-2">Dev Learning Goals</h4>
