@@ -69,13 +69,13 @@ export default function Home() {
             <nav className={`${open ? "block" : "hidden"} w-full md:flex items-center md:w-auto`}>
               <ul className="text-base text-[#f5f5f5] md:flex md:justify-between ">
                 <li>
-                  <a className="md:px-5 py-2 block hover:text-[#f8e36e] font-semibold" href="#home" >Home</a>
+                  <a className="md:px-5 py-2 block hover:text-[#f8e36e] font-semibold" href="#home" onClick={() => setOpen(!open)} >Home</a>
                 </li>
                 <li>
-                  <a className="md:px-5 py-2 block hover:text-[#f8e36e] font-semibold" href="#about" >About</a>
+                  <a className="md:px-5 py-2 block hover:text-[#f8e36e] font-semibold" href="#about" onClick={() => setOpen(!open)}>About</a>
                 </li>
                 <li>
-                  <a className="md:px-5 py-2 block hover:text-[#f8e36e] font-semibold" href="#proyect" >Proyects</a>
+                  <a className="md:px-5 py-2 block hover:text-[#f8e36e] font-semibold" href="#proyect" onClick={() => setOpen(!open)}>Proyects</a>
                 </li>
                 <li>
                   <Link className="md:px-5 py-2 block text-gray-800 bg-gradient-to-t from-[#ffee88] to-[#f8e36e] hover:from-teal-400 hover:to-teal-700 hover:text-white font-medium rounded-lg text-sm px-5 text-center mr-3 md:mr-0 h-auto w-auto " href="cvKarla.pdf" download={"cvKarla.pdf"}>Resume</Link>
@@ -236,7 +236,7 @@ export default function Home() {
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 px-6 w-full place-content-center gap-3 sm:px-12 md:px-10">
-            <div className="grid grid-flow-col grid-cols-1 bg-white bg-opacity-90 px-2 py-4 rounded-lg w-full place-content-start">
+            <div className="grid grid-flow-col grid-cols-1 bg-white bg-opacity-90 px-5 lg:px-2 py-4 rounded-lg w-full place-content-start">
           <a href="https://github.com/karlaCRM/DEV001-cipher-karlaCRM.github.io">
             <Image src={cipher} alt="cipher proyect" className="mb-2 rounded-md"/>
             <h3 className="text-sm text-center font-extrabold   text-[#a4133c]">Cipher</h3>
@@ -250,26 +250,26 @@ export default function Home() {
             </div>
             </a>
             </div>
-            <div className="grid grid-flow-col grid-cols-1 bg-white bg-opacity-90 px-2 py-4 rounded-lg w-full place-content-start">
-          <a href="https://github.com/karlaCRM/DEV001-cipher-karlaCRM.github.io">
+            <div className="grid grid-flow-col grid-cols-1 bg-white bg-opacity-90 px-5 lg:px-2 py-4 rounded-lg w-full place-content-start">
+          <a href="https://github.com/karlaCRM/Data-lovers-PokeLab-karla">
             <Image src={data} alt="cipher proyect" className="mb-2 rounded-md"/>
             <h3 className="text-sm text-center font-extrabold   text-[#a4133c]">DataLovers</h3>
             <p className="text-xs text-center font-semibold px-2 mb-2"> Page that allows you to view, filter and sort data about pokemon.</p>
             <h4 className="text-xs text-center font-bold px-2  text-teal-700 mb-2">Dev Learning Goals</h4>
-            <div className="grid  grid-cols-6 text-3xl md:text-2xl px-2 gap-2 grid-flow-row place-items-center col-start-3">
+            <div className="grid  grid-cols-6 text-3xl  md:text-2xl px-2 gap-2 grid-flow-row place-items-center ">
               <DiHtml5 />
               <DiCss3 />
               <DiJavascript />
               <DiGit />
               <DiScrum />
               <SiFigma />
-              <DiGithubBadge />
+              <DiGithubBadge className="col-start-3"/>
               <SiJest />
             </div>
             </a>
             </div>
-            <div className="grid grid-flow-col grid-cols-1 bg-white bg-opacity-90 px-2 py-4 rounded-lg w-full place-content-start">
-          <a href="https://github.com/karlaCRM/DEV001-cipher-karlaCRM.github.io">
+            <div className="grid grid-flow-col grid-cols-1 bg-white bg-opacity-90 px-5 lg:px-2 py-4 rounded-lg w-full place-content-start">
+          <a href="https://github.com/karlaCRM/DEV001-social-network-SN01">
             <Image src={sn} alt="cipher proyect" className="mb-2 rounded-md"/>
             <h3 className="text-sm text-center font-extrabold   text-[#a4133c]">PawsFinder Social Network</h3>
             <p className="text-xs text-center font-semibold px-2 mb-2">Social network for animal lovers, allows you to create, edit and delete posts.</p>
@@ -281,14 +281,14 @@ export default function Home() {
               <DiGit />
               <DiScrum />
               <SiFigma />
-              <DiGithubBadge />
+              <DiGithubBadge/>
               <SiFirebase />
               <SiJest />
             </div>
             </a>
             </div>
-            <div className="grid grid-flow-col grid-cols-1 bg-white bg-opacity-90 px-2 py-4 rounded-lg w-full place-content-start">
-          <a href="https://github.com/karlaCRM/DEV001-cipher-karlaCRM.github.io">
+            <div className="grid grid-flow-col grid-cols-1 bg-white bg-opacity-90 px-5 lg:px-2 py-4 rounded-lg w-full place-content-start">
+          <a href="https://github.com/karlaCRM/md-links-KarlaCRM">
             <Image src={md} alt="cipher proyect" className="mb-2 rounded-md"/>
             <h3 className="text-sm text-center font-extrabold   text-[#a4133c]">MdLinks</h3>
             <p className="text-xs text-center font-semibold px-2 mb-2">
@@ -304,11 +304,11 @@ Created with NodeJs, it allows to find and validate links inside .md files, it a
             </div>
             </a>
             </div>
-            <div className="grid grid-flow-col grid-cols-1 bg-white bg-opacity-90 px-2 py-4 rounded-lg w-full place-content-start">
-          <a href="https://github.com/karlaCRM/DEV001-cipher-karlaCRM.github.io">
+            <div className="grid grid-flow-col grid-cols-1 bg-white bg-opacity-90 px-5 lg:px-2 py-4 rounded-lg w-full place-content-start">
+          <a href="https://github.com/karlaCRM/DEV001-burger-queen-api-client-KarlaCRM">
             <Image src={bq} alt="cipher proyect" className="mb-2 rounded-md"/>
             <h3 className="text-sm text-center font-extrabold   text-[#a4133c]">Burger Queen Api Client</h3>
-            <p className="text-xs text-center font-semibold px-2 mb-2">Interface created for a fast food restaurant. Employees can take orders, send them to the kitchen, and have more control over products and prices.</p>
+            <p className="text-xs text-center font-semibold px-2 mb-2"><strong>In process. </strong>Interface created for a fast food restaurant. Employees can take orders, send them to the kitchen, and have more control over products and prices.</p>
             <h4 className="text-xs text-center font-bold px-2  text-teal-700 mb-2">Dev Learning Goals</h4>
             <div className="grid  grid-cols-6 text-3xl md:text-2xl px-2 gap-2 grid-flow-row place-items-center place">
               <DiHtml5 />
