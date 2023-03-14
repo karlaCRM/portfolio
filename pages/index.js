@@ -98,10 +98,9 @@ export default function Home() {
             </h2>
             <h3 className="text-xl py-2 pl-4 pr-4 md:text-1xl  sm:max-w-xl lg:max-w-2xl mx-auto text-center  text-[#edf2f4]">
               
-              I&apos;m a <strong>FrontEnd Developer Jr.</strong>,
+              I&apos;m a <strong>Web Developer</strong>,
               <strong>&nbsp;Graphic Designer</strong> and <strong> tattooist</strong> 
-              &nbsp;based in Mexico City. I&apos;m currently focused on learning how
-              to use Angular and perfecting my spoken English.
+              &nbsp;based in Mexico City. I&apos;m currently focused on Angular, Typescript and in continuous learning.
             </h3>
             <div className="text-3xl flex justify-center gap-16 py-3 text-[#ffee88] md:text-5xl">
             <a className="cursor-pointer" href="https://github.com/karlaCRM"><AiFillGithub /></a>
