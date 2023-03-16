@@ -78,7 +78,10 @@ export default function Home() {
                   <a className="md:px-5 py-2 block hover:text-[#f8e36e] font-semibold" href="#proyect" onClick={() => setOpen(!open)}>Projects</a>
                 </li>
                 <li>
-                  <Link className="md:px-5 py-2 block text-gray-800 bg-gradient-to-t from-[#ffee88] to-[#f8e36e] hover:from-teal-400 hover:to-teal-700 hover:text-white font-medium rounded-lg text-sm px-5 text-center mr-3 md:mr-0 h-auto w-auto " href="cvKarla.pdf" download={"cvKarla.pdf"}>Resume</Link>
+                  <Link className="md:px-5 py-2 block  text-gray-800 bg-gradient-to-t from-[#ffee88] to-[#f8e36e] hover:from-teal-400 hover:to-teal-700 hover:text-white font-medium rounded-lg text-sm px-5 text-center mr-3 mb-1  md:mr-2 h-auto w-auto " href="resume.pdf" download={"resume.pdf"}>Resume</Link>
+                </li>
+                <li>
+                  <Link className="md:px-5 py-2 block text-gray-800 bg-gradient-to-t from-[#ffee88] to-[#f8e36e] hover:from-teal-400 hover:to-teal-700 hover:text-white font-medium rounded-lg text-sm px-5 text-center mr-3 md:mr-0 h-auto w-auto " href="cvKarla.pdf" download={"cvKarla.pdf"}>CV español</Link>
                 </li>
               </ul>
             </nav>
